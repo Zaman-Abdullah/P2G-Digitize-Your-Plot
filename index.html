@@ -96,13 +96,12 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>P2G (Plot to Grid): Digitize your Plot</h1>
+            <img src="logo.png" alt="Logo" style="max-width: 70%; height: auto;">
+			
             
         </div>
 
-        <div class="button-container">
-            <button id="refreshApp" class="refresh-button">Refresh</button>
-        </div>
+        
 <h5>Upload your plot/image here (.jpg, .png, .gif only)</h5>
         <div class="upload-section">
             <input type="file" id="imageInput" accept="image/*">
@@ -152,6 +151,9 @@
 		<div class="canvas-container">
 			<canvas id="plotCanvas"></canvas>
 		</div>
+		<div class="button-container">
+            <button id="refreshApp" class="refresh-button">Refresh</button>
+        </div>
 
 		<div class="data-section">
 			<h3>Extracted Points</h3>
@@ -171,6 +173,8 @@
 	    </div>
 
     </div>
+	
+	
  <h3>Copyright © Md Abdullah Al Zaman <a href=https://zaman-abdullah.github.io/home/>     Visit my Site</a></h3>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
     <script src="script.js"></script>
